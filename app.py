@@ -11,6 +11,7 @@ from handlers import user_handler
 async def main() -> None:
     await dp.start_polling(bot)
 
+print('aaaaaaaaa')
 
 def init_tables():
     baza.create_category_table()
