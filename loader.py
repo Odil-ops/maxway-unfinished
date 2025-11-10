@@ -5,8 +5,8 @@ from aiogram.enums import ParseMode
 from database.db_api import Database
 
 
-TOKEN = "7596603800:AAHzVxeSJc4U_sl32K4ECh91z1l48HCY5bc"
-ADMIN = 1058730773
+TOKEN = "7711895949:AAH2HobYA2AxDlgmoO8Co-VWLN4XBKk-7F8"
+ADMIN = 5235874857
 dp = Dispatcher()
 baza = Database('database/main.db')
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
